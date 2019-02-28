@@ -18,4 +18,4 @@ Instructions to build image:
 
 OR
 
-7) mount to a location within your computer using 'docker run -it -v [LOCATION]/:[LOCATION] [NAME]
+7) mount to a location within your computer using 'docker run -it -v [LOCATION]/:[LOCATION] [NAME]'
