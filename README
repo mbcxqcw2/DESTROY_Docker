@@ -2,6 +2,12 @@ Simple Dockerfile for Evan Keane's DESTROY single-pulse search software.
 
 Original Software: https://github.com/evanocathain/destroy_gutted
 
+Dockerfile built based on AMBER AA-ALERT Dockerfile:
+
+https://github.com/AA-ALERT/AMBER_docker
+
+------------------
+
 Instructions to build image:
 
 1) Copy Dockerfile into desired directory
@@ -9,4 +15,7 @@ Instructions to build image:
 3) locate IMAGE ID by typing 'docker images'
 4) rename the docker something meaningful with 'docker tag [IMAGE ID] [NAME]'
 6) run image with 'docker run -it [NAME]'
+
+OR
+
 7) mount to a location within your computer using 'docker run -it -v [LOCATION]/:[LOCATION] [NAME]
